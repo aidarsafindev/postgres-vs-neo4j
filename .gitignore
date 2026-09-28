@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Данные
+output/
+*.csv
+*.png
+*.log
+
+# Docker
+postgres_data/
+neo4j_data/
+neo4j_logs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Секреты
+.env
